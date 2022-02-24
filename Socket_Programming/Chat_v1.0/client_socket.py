@@ -3,7 +3,7 @@ import socket
 # client socket 1)create sock 2) connect to server with ip+port 3) send data / recv data
 
 conn=socket.socket()
-conn.connect(('3.16.150.164',9999))
+conn.connect(('3.16.150.164',9999)) # server's public ip
 
 name= input("Enter your name:")
 conn.send(bytes(name,'utf-8'))  # send data
