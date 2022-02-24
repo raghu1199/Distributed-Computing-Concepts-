@@ -1,0 +1,4 @@
+chat room v1.0 one to one communication
+server.py on aws ubunut server 
+client.py on client machine
+allow inbound rule on port 9999 on aws ubuntu server
