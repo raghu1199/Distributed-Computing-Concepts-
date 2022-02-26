@@ -2,7 +2,7 @@ from threading import Thread
 import socket
 
 server=socket.socket()
-server.bind(("192.168.194.187",9999))
+server.bind(("192.168.194.187",9999)) # if aws (public) server -> bind(("0.0.0.0",9999))
 server.listen()
 
 clients=[] #stores client socktes
