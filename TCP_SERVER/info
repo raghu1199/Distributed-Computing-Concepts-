@@ -1,0 +1,4 @@
+create tcp server
+make command line
+echo msg
+your tcp server should reply with msg
